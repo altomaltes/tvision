@@ -1,0 +1,1716 @@
+# depslib dependency file v1.0
+1577538491 source:d:\tvision-code\tvision\classes\calcdisp.cc
+	<tv.h>
+
+1577538491 d:\tvision-code\tvision\include\tv.h
+	<compatlayer.h>
+	<tv/tvconfig.h>
+	<tv/ttypes.h>
+	<tv/tkeys.h>
+	<tv/parttree.h>
+	<tv/codepage.h>
+	<tv/gkey.h>
+	<tv/tvutil.h>
+	<tv/tvobjs.h>
+	<tv/tobjstrm.h>
+	<tv/drawbuf.h>
+	<tv/objects.h>
+	<tv/validate.h>
+	<tv/system.h>
+	<tv/msgbox.h>
+	<tv/resource.h>
+	<tv/views.h>
+	<tv/dialogs.h>
+	<tv/stddlg.h>
+	<tv/colorsel.h>
+	<tv/menus.h>
+	<tv/textview.h>
+	<tv/indicato.h>
+	<tv/findrepl.h>
+	<tv/app.h>
+	<tv/fileview.h>
+	<tv/fontcoll.h>
+	<tv/helpbase.h>
+	<tv/help.h>
+	<tv/editors.h>
+	<tv/tvedit.h>
+	<tv/calc.h>
+	<tv/osclipboard.h>
+	<tv/configfile.h>
+
+1580643333 d:\tvision-code\tvision\include\compatlayer.h
+	<tv/configtv.h>
+	<_mingw.h>
+	<libintl.h>
+	<sys/types.h>
+	<sys/types.h>
+	<string.h>
+	<strings.h>
+	<stdio.h>
+	<limits.h>
+	<fcntl.h>
+	<sys/stat.h>
+	<stdlib.h>
+	<alloca.h>
+	<malloc.h>
+	<io.h>
+	<direct.h>
+	<dir.h>
+	<cl/dir.h>
+	<langinfo.h>
+	<ctype.h>
+	<unistd.h>
+	<cl/unistd.h>
+	<process.h>
+	<cl/unistd.h>
+	<glob.h>
+	<cl/glob.h>
+	<fnmatch.h>
+	<cl/fnmatch.h>
+	<regex.h>
+	<cl/regex.h>
+	<getopt.h>
+	<cl/getopt.h>
+	<dirent.h>
+	<cl/dirent.h>
+	<time.h>
+	<utime.h>
+	<stdarg.h>
+	<signal.h>
+	<sys/utime.h>
+	<cl/utime.h>
+	<allegro.h>
+	<strstrea.h>
+	<sstream>
+	<tv/ssc_streams.h>
+	<mss.h>
+
+1580640252 d:\tvision-code\tvision\include\tv\configtv.h
+
+1577538491 d:\tvision-code\tvision\include\cl\dir.h
+	<direct.h>
+
+1577538491 d:\tvision-code\tvision\include\cl\unistd.h
+
+1577538491 d:\tvision-code\tvision\include\cl\glob.h
+	<stddef.h>
+	<sys/types.h>
+
+1577538491 d:\tvision-code\tvision\include\cl\fnmatch.h
+
+1577538491 d:\tvision-code\tvision\include\cl\regex.h
+	<stddef.h>
+	<stddef.h>
+
+1577538491 d:\tvision-code\tvision\include\cl\getopt.h
+
+1577538491 d:\tvision-code\tvision\include\cl\dirent.h
+	<stdlib.h>
+
+1577538491 d:\tvision-code\tvision\include\cl\utime.h
+
+1577538491 d:\tvision-code\tvision\include\tv\ssc_streams.h
+
+1577538491 d:\tvision-code\tvision\include\tv\tvconfig.h
+	<stddef.h>
+	<sys/types.h>
+	<limits.h>
+	<tv/intl.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\intl.h
+	<tv/configtv.h>
+	<tv/nointl.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\nointl.h
+
+1577540479 d:\tvision-code\tvision\include\tv\ttypes.h
+
+1577538491 d:\tvision-code\tvision\include\tv\tkeys.h
+	<tv/tkeyext.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\tkeyext.h
+
+1577538491 d:\tvision-code\tvision\include\tv\parttree.h
+
+1577538491 d:\tvision-code\tvision\include\tv\codepage.h
+
+1577538491 d:\tvision-code\tvision\include\tv\gkey.h
+
+1577538491 d:\tvision-code\tvision\include\tv\tvutil.h
+	<compatlayer.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\tvobjs.h
+	<tv/object.h>
+	<tv/nscoll.h>
+	<tv/nssorcol.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\object.h
+	<stddef.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\nscoll.h
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\no_mss.h
+	<no_mss.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\yes_mss.h
+	<mss.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\nssorcol.h
+
+1577538491 d:\tvision-code\tvision\include\tv\tobjstrm.h
+	<tv/streambl.h>
+	<tv/strmblcl.h>
+	<tv/strmblty.h>
+	<tv/pwritobj.h>
+	<tv/preadobj.h>
+	<tv/pstream.h>
+	<tv/ipstream.h>
+	<tv/opstream.h>
+	<tv/iopstrm.h>
+	<tv/fpbase.h>
+	<tv/ifpstrm.h>
+	<tv/ofpstrm.h>
+	<tv/fpstream.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\streambl.h
+
+1577538491 d:\tvision-code\tvision\include\tv\strmblcl.h
+	<limits.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\strmblty.h
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\pwritobj.h
+
+1577538491 d:\tvision-code\tvision\include\tv\preadobj.h
+
+1577538491 d:\tvision-code\tvision\include\tv\pstream.h
+
+1577541964 d:\tvision-code\tvision\include\tv\ipstream.h
+
+1577541592 d:\tvision-code\tvision\include\tv\opstream.h
+
+1577538491 d:\tvision-code\tvision\include\tv\iopstrm.h
+
+1577538491 d:\tvision-code\tvision\include\tv\fpbase.h
+
+1577538491 d:\tvision-code\tvision\include\tv\ifpstrm.h
+
+1577538491 d:\tvision-code\tvision\include\tv\ofpstrm.h
+
+1577538491 d:\tvision-code\tvision\include\tv\fpstream.h
+
+1577538491 d:\tvision-code\tvision\include\tv\drawbuf.h
+
+1577538491 d:\tvision-code\tvision\include\tv\objects.h
+	<tv/point.h>
+	<tv/rect.h>
+	<tv/collectn.h>
+	<tv/sortcoll.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\point.h
+
+1577538491 d:\tvision-code\tvision\include\tv\rect.h
+
+1577538491 d:\tvision-code\tvision\include\tv\collectn.h
+
+1577538491 d:\tvision-code\tvision\include\tv\sortcoll.h
+
+1577538491 d:\tvision-code\tvision\include\tv\validate.h
+
+1577538491 d:\tvision-code\tvision\include\tv\system.h
+	<tv/event.h>
+	<tv/eventqu.h>
+	<tv/screen.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\event.h
+
+1577538491 d:\tvision-code\tvision\include\tv\eventqu.h
+
+1577538491 d:\tvision-code\tvision\include\tv\screen.h
+
+1577538491 d:\tvision-code\tvision\include\tv\msgbox.h
+	<stdarg.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\resource.h
+	<tv/strncoll.h>
+	<tv/resitem.h>
+	<tv/rescoll.h>
+	<tv/resfile.h>
+	<tv/strinrec.h>
+	<tv/strilist.h>
+	<tv/strlistm.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\strncoll.h
+
+1577538491 d:\tvision-code\tvision\include\tv\resitem.h
+
+1577538491 d:\tvision-code\tvision\include\tv\rescoll.h
+
+1577538491 d:\tvision-code\tvision\include\tv\resfile.h
+
+1577538491 d:\tvision-code\tvision\include\tv\strinrec.h
+
+1577538491 d:\tvision-code\tvision\include\tv\strilist.h
+
+1577538491 d:\tvision-code\tvision\include\tv\strlistm.h
+
+1577538491 d:\tvision-code\tvision\include\tv\views.h
+	<tv/cmdset.h>
+	<tv/palette.h>
+	<tv/view.h>
+	<tv/frame.h>
+	<tv/scrlbar.h>
+	<tv/scroller.h>
+	<tv/lstviewr.h>
+	<tv/group.h>
+	<tv/window.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\cmdset.h
+
+1577538491 d:\tvision-code\tvision\include\tv\palette.h
+
+1577538491 d:\tvision-code\tvision\include\tv\view.h
+
+1577538491 d:\tvision-code\tvision\include\tv\frame.h
+
+1577538491 d:\tvision-code\tvision\include\tv\scrlbar.h
+
+1577538491 d:\tvision-code\tvision\include\tv\scroller.h
+
+1577538491 d:\tvision-code\tvision\include\tv\lstviewr.h
+
+1577538491 d:\tvision-code\tvision\include\tv\group.h
+
+1577538491 d:\tvision-code\tvision\include\tv\window.h
+
+1577538491 d:\tvision-code\tvision\include\tv\dialogs.h
+	<tv/dialog.h>
+	<tv/inputln.h>
+	<tv/button.h>
+	<tv/sitem.h>
+	<tv/cluster.h>
+	<tv/radiobtn.h>
+	<tv/checkbox.h>
+	<tv/listbox.h>
+	<tv/sttctext.h>
+	<tv/parmtext.h>
+	<tv/label.h>
+	<tv/histvwer.h>
+	<tv/histwind.h>
+	<tv/history.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\dialog.h
+
+1577538491 d:\tvision-code\tvision\include\tv\inputln.h
+
+1577538491 d:\tvision-code\tvision\include\tv\button.h
+
+1577538491 d:\tvision-code\tvision\include\tv\sitem.h
+
+1577538491 d:\tvision-code\tvision\include\tv\cluster.h
+
+1577538491 d:\tvision-code\tvision\include\tv\radiobtn.h
+
+1577538491 d:\tvision-code\tvision\include\tv\checkbox.h
+
+1577538491 d:\tvision-code\tvision\include\tv\listbox.h
+
+1577538491 d:\tvision-code\tvision\include\tv\sttctext.h
+
+1577538491 d:\tvision-code\tvision\include\tv\parmtext.h
+
+1577538491 d:\tvision-code\tvision\include\tv\label.h
+
+1577538491 d:\tvision-code\tvision\include\tv\histvwer.h
+
+1577538491 d:\tvision-code\tvision\include\tv\histwind.h
+
+1577538491 d:\tvision-code\tvision\include\tv\history.h
+
+1577538491 d:\tvision-code\tvision\include\tv\stddlg.h
+	<tv/searchrc.h>
+	<tv/filinpln.h>
+	<tv/filecoll.h>
+	<tv/sortlibo.h>
+	<tv/filelist.h>
+	<tv/filinfpn.h>
+	<tv/filedlg.h>
+	<tv/direntr.h>
+	<tv/dircoll.h>
+	<tv/dirlibo.h>
+	<tv/chdirdlg.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\searchrc.h
+
+1577538491 d:\tvision-code\tvision\include\tv\filinpln.h
+
+1577538491 d:\tvision-code\tvision\include\tv\filecoll.h
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\sortlibo.h
+
+1577538491 d:\tvision-code\tvision\include\tv\filelist.h
+
+1577538491 d:\tvision-code\tvision\include\tv\filinfpn.h
+
+1577538491 d:\tvision-code\tvision\include\tv\filedlg.h
+
+1577538491 d:\tvision-code\tvision\include\tv\direntr.h
+
+1577538491 d:\tvision-code\tvision\include\tv\dircoll.h
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\dirlibo.h
+	<limits.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\chdirdlg.h
+
+1577538491 d:\tvision-code\tvision\include\tv\colorsel.h
+	<tv/clritem.h>
+	<tv/clrgroup.h>
+	<tv/clrselct.h>
+	<tv/mnoselct.h>
+	<tv/clrdisp.h>
+	<tv/clrgrpli.h>
+	<tv/clriteml.h>
+	<tv/clrdlg.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\clritem.h
+
+1577538491 d:\tvision-code\tvision\include\tv\clrgroup.h
+
+1577538491 d:\tvision-code\tvision\include\tv\clrselct.h
+
+1577538491 d:\tvision-code\tvision\include\tv\mnoselct.h
+
+1577538491 d:\tvision-code\tvision\include\tv\clrdisp.h
+
+1577538491 d:\tvision-code\tvision\include\tv\clrgrpli.h
+
+1577538491 d:\tvision-code\tvision\include\tv\clriteml.h
+
+1577538491 d:\tvision-code\tvision\include\tv\clrdlg.h
+
+1577538491 d:\tvision-code\tvision\include\tv\menus.h
+	<tv/menuitem.h>
+	<tv/submenu.h>
+	<tv/menu.h>
+	<tv/menuview.h>
+	<tv/menubar.h>
+	<tv/menubox.h>
+	<tv/statsitm.h>
+	<tv/statsdef.h>
+	<tv/statslin.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\menuitem.h
+
+1577538491 d:\tvision-code\tvision\include\tv\submenu.h
+
+1577538491 d:\tvision-code\tvision\include\tv\menu.h
+
+1577538491 d:\tvision-code\tvision\include\tv\menuview.h
+
+1577538491 d:\tvision-code\tvision\include\tv\menubar.h
+
+1577538491 d:\tvision-code\tvision\include\tv\menubox.h
+
+1577538491 d:\tvision-code\tvision\include\tv\statsitm.h
+
+1577538491 d:\tvision-code\tvision\include\tv\statsdef.h
+
+1577538491 d:\tvision-code\tvision\include\tv\statslin.h
+
+1577538491 d:\tvision-code\tvision\include\tv\textview.h
+	<tv/textdev.h>
+	<tv/terminal.h>
+	<tv/otstream.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\textdev.h
+
+1577538491 d:\tvision-code\tvision\include\tv\terminal.h
+
+1577538491 d:\tvision-code\tvision\include\tv\otstream.h
+
+1577538491 d:\tvision-code\tvision\include\tv\indicato.h
+
+1577538491 d:\tvision-code\tvision\include\tv\findrepl.h
+
+1577538491 d:\tvision-code\tvision\include\tv\app.h
+	<tv/backgrnd.h>
+	<tv/desktop.h>
+	<tv/program.h>
+	<tv/applictn.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\backgrnd.h
+
+1577538491 d:\tvision-code\tvision\include\tv\desktop.h
+
+1577538491 d:\tvision-code\tvision\include\tv\program.h
+
+1577538491 d:\tvision-code\tvision\include\tv\applictn.h
+
+1577538491 d:\tvision-code\tvision\include\tv\fileview.h
+	<tv.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\fontcoll.h
+
+1577538491 d:\tvision-code\tvision\include\tv\helpbase.h
+
+1577538491 d:\tvision-code\tvision\include\tv\help.h
+
+1577538491 d:\tvision-code\tvision\include\tv\editors.h
+
+1577538491 d:\tvision-code\tvision\include\tv\tvedit.h
+
+1577538491 d:\tvision-code\tvision\include\tv\calc.h
+
+1577538491 d:\tvision-code\tvision\include\tv\osclipboard.h
+
+1577538491 d:\tvision-code\tvision\include\tv\configfile.h
+
+1577538491 source:d:\tvision-code\tvision\classes\calculat.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\codepage.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\configfile.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\fontcoll.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\fpbase.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\fpstream.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\help.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\helpbase.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\ifpstrea.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\iopstrea.cc
+	<tv.h>
+
+1577541832 source:d:\tvision-code\tvision\classes\ipstream.cc
+	<assert.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\ofpstrea.cc
+	<tv.h>
+
+1577541551 source:d:\tvision-code\tvision\classes\opstream.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\osclipboard.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\pstream.cc
+	<stdlib.h>
+	<tv.h>
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tapplica.cc
+	<tv.h>
+	<dpmi.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tbackgro.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tbutton.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tchdirdi.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcheckbo.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tclrdisp.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcluster.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcollect.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcolordi.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcolorgr.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcolorit.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcolorse.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tcommand.cc
+	<tv.h>
+	<stdlib.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tdesktop.cc
+	<stdlib.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tdialog.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tdircoll.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tdirlist.cc
+	<tv/configtv.h>
+	<tv.h>
+	<dos.h>
+	<io.h>
+	<direct.h>
+	<dirent.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tdisplay.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tdrawbuf.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\teditor.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\teditorf.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\teditwin.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tevent.cc
+	<tv.h>
+	<tv/gkey.h>
+	<tv/dos/mouse.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\dos\mouse.h
+
+1577538491 source:d:\tvision-code\tvision\classes\tfilecol.cc
+	<tv/configtv.h>
+	<dos.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tfiledia.cc
+	<stdio.h>
+	<tv.h>
+	<errno.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tfileedi.cc
+	<tv/configtv.h>
+	<io.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tfileinf.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tfileinp.cc
+	<tv.h>
+	<dos.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tfilelis.cc
+	<tv/configtv.h>
+	<io.h>
+	<dir.h>
+	<tv.h>
+	<errno.h>
+	<dos.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tfilterv.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tframe.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tgkey.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tgroup.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\thistory.cc
+	<ctype.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\thistvie.cc
+	<ctype.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\thistwin.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\thwmouse.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tindicat.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tinputli.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tlabel.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tlistbox.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tlistvie.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tlookupv.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tmemo.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tmenubar.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tmenubox.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tmenuvie.cc
+	<assert.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tmonosel.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tmouse.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tnscolle.cc
+	<tv.h>
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tnssorte.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tobject.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tpalette.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tparamte.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tpoint.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tprogini.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tprogram.cc
+	<tv.h>
+	<compatlayer.h>
+	<sys/time.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tpwobj.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tpwreado.cc
+	<tv.h>
+	<assert.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tpwritte.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tpxvalid.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tradiobu.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\trangeva.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\trescoll.cc
+	<tv.h>
+
+1577542914 source:d:\tvision-code\tvision\classes\tresfile.cc
+	<tv.h>
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1581170280 source:d:\tvision-code\tvision\classes\tscreen.cc
+	<tv.h>
+	<tv/drivers.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\drivers.h
+
+1577538491 source:d:\tvision-code\tvision\classes\tscrollb.cc
+	<ctype.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tscrolle.cc
+	<ctype.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tsortedc.cc
+	<tv.h>
+
+1577543093 source:d:\tvision-code\tvision\classes\tsortedl.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstatict.cc
+	<ctype.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstatusd.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstatusl.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstrinde.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstringc.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstringl.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstrlist.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstrmcla.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tstrmtyp.cc
+	<tv.h>
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tsubmenu.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\ttermina.cc
+	<tv/configtv.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\ttextdev.cc
+	<tv/configtv.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tvalidat.cc
+	<limits.h>
+	<stdio.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tvedit1.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tvedit2.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tvedit3.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tview.cc
+	<tv.h>
+	<limits.h>
+	<dos.h>
+	<go32.h>
+	<dpmi.h>
+	<sys/movedata.h>
+	<sys/farptr.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\pathvalid.c
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tvtext1.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\regex.c
+	<cl/needs.h>
+	<sys/types.h>
+	"config.h"
+	"lisp.h"
+	"buffer.h"
+	"syntax.h"
+	<string.h>
+	<strings.h>
+	<stdlib.h>
+	<malloc.h>
+	<cl/regex.h>
+	<ctype.h>
+	<alloca.h>
+	<malloc.h>
+	<stdio.h>
+	<assert.h>
+
+1577538491 d:\tvision-code\tvision\include\cl\needs.h
+	<tv/configtv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\tvtext2.cc
+
+1577538491 source:d:\tvision-code\tvision\classes\twindow.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\beep.c
+
+1577538491 source:d:\tvision-code\tvision\compat\drivevalid.c
+	<cl/needs.h>
+	<compatlayer.h>
+	<dpmi.h>
+	<windows.h>
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\expandpath.c
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\fexpand.c
+	<cl/needs.h>
+	<compatlayer.h>
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\fileattrs.c
+	<compatlayer.h>
+	<io.h>
+	<unistd.h>
+	<windows.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\fileexists.c
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\filelength.c
+	<cl/needs.h>
+	<unistd.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\fixpath.c
+	<cl/needs.h>
+	<tv/configtv.h>
+	<compatlayer.h>
+	<dir.h>
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\fnmatch.c
+	<cl/needs.h>
+	<string.h>
+	<ctype.h>
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\getcurdir.c
+	<cl/needs.h>
+	<compatlayer.h>
+	<dir.h>
+	<direct.h>
+
+1580643939 source:d:\tvision-code\tvision\compat\getline.c
+	<cl/needs.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<errno.h>
+
+1580643952 source:d:\tvision-code\tvision\compat\getopt.c
+	<cl/needs.h>
+	"config.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<malloc.h>
+	<cl/getopt.h>
+	<string.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\getopt1.c
+	<cl/needs.h>
+	"config.h"
+	<cl/getopt.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdio.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\getshell.c
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\glob.c
+	<cl/needs.h>
+	<windows.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<malloc.h>
+	<io.h>
+	<ctype.h>
+	<dir.h>
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\globfree.c
+	<cl/needs.h>
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\isdir.c
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\isrelpath.c
+	<compatlayer.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\iswild.c
+	<string.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\itoa.c
+	<cl/needs.h>
+	<stdlib.h>
+	<errno.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\mkstemp.c
+	<cl/needs.h>
+	<stdio.h>
+	<fcntl.h>
+	<errno.h>
+	<io.h>
+	<string.h>
+	<stdlib.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\nl_langinfo.c
+	<cl/needs.h>
+	<compatlayer.h>
+	<locale.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\ntdirent.c
+	<cl/needs.h>
+	<malloc.h>
+	<cl/dirent.h>
+	<string.h>
+	<ctype.h>
+	<errno.h>
+	<sys/stat.h>
+	<io.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\releasec.c
+	<tv/configtv.h>
+	<dpmi.h>
+	<windows.h>
+	<time.h>
+	<unistd.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\snprintf.c
+	<cl/needs.h>
+	<stdarg.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<stdio.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\strlwr.c
+	<cl/needs.h>
+	<ctype.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\strupr.c
+	<cl/needs.h>
+	<ctype.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\ticks.c
+	<tv/configtv.h>
+	<sys/farptr.h>
+	<go32.h>
+	<windows.h>
+	<sys/time.h>
+	<stdio.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\unc.c
+	<cl/needs.h>
+	<windows.h>
+	<malloc.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\unc_95.c
+	<cl/needs.h>
+	<windows.h>
+	<svrapi.h>
+	<malloc.h>
+	<string.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\unc_nt.c
+	<cl/needs.h>
+	<windows.h>
+	<lmcons.h>
+	<lmshare.h>
+	<lmapibuf.h>
+	<malloc.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\validfilename.c
+	<compatlayer.h>
+	<fcntl.h>
+
+1577538491 source:d:\tvision-code\tvision\compat\yieldpro.c
+	<tv/configtv.h>
+	<dpmi.h>
+	<unistd.h>
+	<time.h>
+	<unistd.h>
+	<sched.h>
+	<windows.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sbackgro.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sbutton.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scalcdis.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scalcula.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\schdirdi.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scheckbo.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sclrdisp.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scluster.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scolordi.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scolorgr.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scolorit.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\scolorse.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sdesktop.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sdialog.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sdircoll.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sdirlist.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\seditor.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\seditwin.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfilecol.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfiledia.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfileedi.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfileinf.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfileinp.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfilelis.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sfilterv.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sframe.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sgroup.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\shistory.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sindicat.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sinputli.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\slabel.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\slistbox.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\slistvie.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\slookupv.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\smemo.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\smenubar.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\smenubox.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\smenuvie.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\smonosel.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sparamte.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\spxvalid.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sradiobu.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\srangeva.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sresourc.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sscrollb.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sscrolle.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sstatict.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sstatusl.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sstringc.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sstringl.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\sview.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\stream\swindow.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\alcon\alcon.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/gkey.h>
+	<tv/alcon/alcon.h>
+	<allegro/internal/aintern.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\alcon\alcon.h
+	<allegro.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\alcon\alcondis.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/alcon/screen.h>
+	<tv/alcon/mouse.h>
+	<tv/alcon/key.h>
+	<tv/alcon/alcon.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\alcon\screen.h
+
+1577538491 d:\tvision-code\tvision\include\tv\alcon\mouse.h
+
+1577538491 d:\tvision-code\tvision\include\tv\alcon\key.h
+
+1577538491 source:d:\tvision-code\tvision\classes\alcon\alconkey.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/alcon/key.h>
+	<tv/alcon/alcon.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\alcon\alconmouse.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/alcon/mouse.h>
+	<tv/alcon/alcon.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\alcon\alconscr.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/alcon/screen.h>
+	<tv/alcon/mouse.h>
+	<tv/alcon/key.h>
+	<tv/alcon/alcon.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nbackgro.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nbutton.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncalcdis.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncalcula.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nchdirdi.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncheckbo.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nclrdisp.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncluster.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncollect.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncolordi.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncolorgr.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncolorit.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ncolorse.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ndesktop.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ndialog.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ndircoll.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ndirlist.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\neditor.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\neditwi.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfilecol.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfiledia.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfiledtr.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfileinf.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfileinp.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfilelis.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nfilterv.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nframe.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ngroup.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nhistory.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nindicat.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\ninputli.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nlabel.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nlistbox.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nlistvie.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nlookupv.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nmemo.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nmenubar.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nmenubox.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nmenuvie.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nmonosel.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nparamte.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\npxvalid.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nradiobu.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nrangeva.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nresourc.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nscrollb.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nscrolle.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nsortedc.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nsortedl.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nstatict.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nstatusl.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nstringc.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nstringl.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nvalidat.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nview.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\names\nwindow.cc
+	<tv/tvutil.h>
+
+1577538491 source:d:\tvision-code\tvision\drivers2.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\dual.cc
+	<tv.h>
+	<dpmi.h>
+	<sys/farptr.h>
+
+1577538491 source:d:\tvision-code\tvision\fileview.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\histlist.cc
+	<tv.h>
+	<stdlib.h>
+	<tv/no_mss.h>
+	<tv/yes_mss.h>
+
+1577538491 source:d:\tvision-code\tvision\misc.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\msgbox.cc
+	<stdarg.h>
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\newstr.cc
+	<tv.h>
+
+1578858949 source:d:\tvision-code\tvision\classes\tvintl.cc
+	<compatlayer.h>
+	<locale.h>
+	<tv/ttypes.h>
+	<tv/intl.h>
+	<tv.h>
+	<tv/codepage.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\win32\win32clip.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/win32/win32clip.h>
+	<windows.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\win32\win32clip.h
+
+1577538491 source:d:\tvision-code\tvision\classes\win32\win32dis.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/win32/screen.h>
+	<tv/win32/screen.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\win32\screen.h
+
+1577538491 source:d:\tvision-code\tvision\classes\win32\win32key.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/win32/screen.h>
+	<tv/win32/key.h>
+	<tv/win32/screen.h>
+	<tv/win32/key.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\win32\key.h
+
+1577538491 source:d:\tvision-code\tvision\classes\win32\win32mouse.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/win32/screen.h>
+	<tv/win32/mouse.h>
+	<tv/win32/key.h>
+	<tv/win32/screen.h>
+	<tv/win32/mouse.h>
+	<tv/win32/key.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\win32\mouse.h
+
+1580644565 source:d:\tvision-code\tvision\classes\win32\win32scr.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/win32/win32clip.h>
+	<windows.h>
+	<tv/win32/screen.h>
+	<tv/win32/mouse.h>
+	<tv/win32/key.h>
+	<tv/win32/screen.h>
+	<tv/win32/mouse.h>
+	<tv/win32/key.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\winnt\winntdis.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/screen.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\winnt\screen.h
+
+1577538491 source:d:\tvision-code\tvision\classes\winnt\winntkey.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/key.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/key.h>
+	<windows.h>
+	<stdio.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\winnt\key.h
+
+1577538491 source:d:\tvision-code\tvision\classes\winnt\winntmouse.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/mouse.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/mouse.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\winnt\mouse.h
+
+1577538491 source:d:\tvision-code\tvision\classes\winnt\winntscr.cc
+	<tv/configtv.h>
+	<tv.h>
+	<tv/win32/win32clip.h>
+	<windows.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/mouse.h>
+	<tv/winnt/key.h>
+	<tv/winnt/screen.h>
+	<tv/winnt/mouse.h>
+	<tv/winnt/key.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\wingr\wingrdis.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<shellapi.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/key.h>
+	<tv/wingr/mouse.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/key.h>
+	<tv/wingr/mouse.h>
+
+1577538491 d:\tvision-code\tvision\include\tv\wingr\screen.h
+
+1577538491 d:\tvision-code\tvision\include\tv\wingr\key.h
+
+1577538491 d:\tvision-code\tvision\include\tv\wingr\mouse.h
+
+1577538491 source:d:\tvision-code\tvision\classes\wingr\wingrkey.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/key.h>
+	<tv/wingr/mouse.h>
+	<stdio.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/key.h>
+	<tv/wingr/mouse.h>
+
+1577538491 source:d:\tvision-code\tvision\classes\wingr\wingrmouse.cc
+	<tv/configtv.h>
+	<tv.h>
+	<windows.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/mouse.h>
+	<tv/wingr/key.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/mouse.h>
+	<tv/wingr/key.h>
+
+1578859238 source:d:\tvision-code\tvision\classes\wingr\wingrscr.cc
+	<tv/configtv.h>
+	<stdio.h>
+	<tv.h>
+	<tv/win32/win32clip.h>
+	<windows.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/mouse.h>
+	<tv/wingr/key.h>
+	<tv/wingr/screen.h>
+	<tv/wingr/mouse.h>
+	<tv/wingr/key.h>
+
+1577538491 source:d:\tvision-code\tvision\examples\tutorial\tvguid01.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\examples\tutorial\tvguid02.cc
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\ascii.cc
+	<stdlib.h>
+	<ctype.h>
+	<stdio.h>
+	<tv.h>
+	"ascii.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\ascii.h
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\calendar.cc
+	<ctype.h>
+	<stdio.h>
+	<time.h>
+	<tv.h>
+	"calendar.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\calendar.h
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\fileview.cc
+	<tv.h>
+	"tvcmds.h"
+	"fileview.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\tvcmds.h
+
+1577538491 d:\tvision-code\tvision\examples\demo\fileview.h
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\gadgets.cc
+	<tv/configtv.h>
+	<tv.h>
+	<sys/osinfo.h>
+	"gadgets.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\gadgets.h
+	<tv.h>
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\mousedlg.cc
+	<tv.h>
+	"mousedlg.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\mousedlg.h
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\puzzle.cc
+	<tv.h>
+	<time.h>
+	<io.h>
+	<time.h>
+	<sys/time.h>
+	<unistd.h>
+	"puzzle.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\puzzle.h
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\tvdemo1.cc
+	<stdio.h>
+	<tv.h>
+	"tvdemo.h"
+	"gadgets.h"
+	"fileview.h"
+	"puzzle.h"
+	"demohelp.h"
+
+1577538491 d:\tvision-code\tvision\examples\demo\tvdemo.h
+
+1577538491 d:\tvision-code\tvision\examples\demo\demohelp.h
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\tvdemo2.cc
+	<tv.h>
+	"tvdemo.h"
+	"fileview.h"
+	"tvcmds.h"
+	"demohelp.h"
+	"ascii.h"
+	"calendar.h"
+
+1577538491 source:d:\tvision-code\tvision\examples\demo\tvdemo3.cc
+	<tv.h>
+	"tvdemo.h"
+	"tvcmds.h"
+	"gadgets.h"
+	"mousedlg.h"
+	"demohelp.h"
+	"fileview.h"
+	"calendar.h"
+

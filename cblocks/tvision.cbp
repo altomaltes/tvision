@@ -1,0 +1,1790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tvision" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="$(TARGET_COMPILER_DIR)lib/tvision" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="gdi32" />
+					<Add library="intl" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='$(CMD_CP)  $(TARGET_OUTPUT_FILE)  [[if (PLATFORM == PLATFORM_MSW) print(_T(&quot;$(SystemRoot)\\system32&quot;)) else print(_T(&quot;/usr/local/lib&quot;));]]' />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tvision" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="tvguid01">
+				<Option output="bin/tvguid01/tvision" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/tvguid01/" />
+				<Option object_output="obj/tvguid01/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="tvision" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+			<Target title="tvguid02">
+				<Option output="bin/tvguid01/tvision" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/tvguid01/" />
+				<Option object_output="obj/tvguid01/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="tvision" />
+				</Linker>
+			</Target>
+			<Target title="tvdemo">
+				<Option output="bin/tvguid01/tvision" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/tvguid01/" />
+				<Option object_output="obj/tvguid01/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="tvision" />
+					<Add library="gdi32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fPIC" />
+			<Add option="-fexceptions" />
+			<Add directory="../include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/MinGW/lib" />
+		</Linker>
+		<Unit filename="../classes/alcon/alcon.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/alcon/alcondis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/alcon/alconkey.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/alcon/alconmouse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/alcon/alconscr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/calcdisp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/calculat.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/codepage.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/configfile.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/fontcoll.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/fpbase.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/fpstream.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/help.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/helpbase.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/ifpstrea.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/iopstrea.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/ipstream.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/ofpstrea.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/opstream.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/osclipboard.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/pstream.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tapplica.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tbackgro.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tbutton.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tchdirdi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcheckbo.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tclrdisp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcluster.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcollect.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcolordi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcolorgr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcolorit.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcolorse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tcommand.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tdesktop.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tdialog.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tdircoll.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tdirlist.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tdisplay.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tdrawbuf.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/teditor.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/teditorf.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/teditwin.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tevent.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfilecol.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfiledia.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfileedi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfileinf.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfileinp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfilelis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tfilterv.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tframe.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tgkey.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tgroup.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/thistory.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/thistvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/thistwin.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/thwmouse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tindicat.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tinputli.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tlabel.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tlistbox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tlistvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tlookupv.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tmemo.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tmenubar.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tmenubox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tmenuvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tmonosel.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tmouse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tnscolle.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tnssorte.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tobject.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tpalette.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tparamte.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tpoint.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tprogini.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tprogram.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tpwobj.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tpwreado.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tpwritte.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tpxvalid.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tradiobu.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/trangeva.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/trescoll.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tresfile.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tscreen.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tscrollb.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tscrolle.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tsortedc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tsortedl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstatict.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstatusd.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstatusl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstrinde.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstringc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstringl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstrlist.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstrmcla.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tstrmtyp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tsubmenu.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/ttermina.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/ttextdev.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvalidat.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvedit1.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvedit2.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvedit3.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tview.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvintl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvtext1.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/tvtext2.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/twindow.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/win32/win32clip.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/win32/win32dis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/win32/win32key.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/win32/win32mouse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/win32/win32scr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/wingr/wingrdis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/wingr/wingrkey.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/wingr/wingrmouse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/wingr/wingrscr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/winnt/winntdis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/winnt/winntkey.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/winnt/winntmouse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../classes/winnt/winntscr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/beep.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/drivevalid.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/expandpath.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/fexpand.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/fileattrs.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/fileexists.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/filelength.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/fixpath.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/fnmatch.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/getcurdir.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/getline.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/getopt.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/getopt1.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/getshell.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/glob.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/globfree.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/isdir.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/isrelpath.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/iswild.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/itoa.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/mkstemp.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/nl_langinfo.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/ntdirent.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/pathvalid.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/regex.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/releasec.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/snprintf.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/strlwr.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/strupr.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/ticks.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/unc.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/unc_95.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/unc_nt.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/validfilename.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../compat/yieldpro.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../drivers2.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../dual.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../examples/demo/ascii.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/calendar.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/fileview.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/gadgets.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/mousedlg.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/puzzle.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/tvdemo1.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/tvdemo2.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/demo/tvdemo3.cc">
+			<Option target="tvdemo" />
+		</Unit>
+		<Unit filename="../examples/tutorial/tvguid01.cc">
+			<Option target="tvguid01" />
+		</Unit>
+		<Unit filename="../examples/tutorial/tvguid02.cc">
+			<Option target="tvguid02" />
+		</Unit>
+		<Unit filename="../fileview.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../histlist.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/compatlayer.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv.h" />
+		<Unit filename="../include/tv/app.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/applictn.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/backgrnd.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/button.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/calc.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/chdirdlg.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/checkbox.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clrdisp.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clrdlg.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clrgroup.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clrgrpli.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clritem.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clriteml.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/clrselct.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/cluster.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/cmdset.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/codepage.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/collectn.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/colorsel.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/configfile.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/configtv.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/desktop.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/dialog.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/dialogs.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/dircoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/direntr.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/dirlibo.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/drawbuf.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/drivers.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/editors.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/event.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/eventqu.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/filecoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/filedlg.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/filelist.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/fileview.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/filinfpn.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/filinpln.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/findrepl.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/fontcoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/fpbase.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/fpstream.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/frame.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/gkey.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/group.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/help.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/helpbase.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/history.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/histvwer.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/histwind.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/ifpstrm.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/indicato.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/inputln.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/intl.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/iopstrm.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/ipstream.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/label.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/listbox.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/lstviewr.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/menu.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/menubar.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/menubox.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/menuitem.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/menus.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/menuview.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/mnoselct.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/msgbox.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/no_mss.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/nointl.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/nscoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/nssorcol.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/object.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/objects.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/ofpstrm.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/opstream.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/osclipboard.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/otstream.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/palette.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/parmtext.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/parttree.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/point.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/preadobj.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/program.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/pstream.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/pwritobj.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/radiobtn.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/rect.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/rescoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/resfile.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/resitem.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/resource.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/screen.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/scrlbar.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/scroller.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/searchrc.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/sitem.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/sortcoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/sortlibo.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/ssc_streams.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/statsdef.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/statsitm.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/statslin.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/stddlg.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/streambl.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/strilist.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/strinrec.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/strlistm.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/strmblcl.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/strmblty.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/strncoll.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/sttctext.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/submenu.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/system.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/terminal.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/textdev.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/textview.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tkeyext.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tkeys.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tobjstrm.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/ttypes.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tvconfig.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tvedit.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tvobjs.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/tvutil.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/validate.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/video.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/view.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/views.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/window.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../include/tv/yes_mss.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../misc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../msgbox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nbackgro.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nbutton.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncalcdis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncalcula.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nchdirdi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncheckbo.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nclrdisp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncluster.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncollect.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncolordi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncolorgr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncolorit.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ncolorse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ndesktop.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ndialog.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ndircoll.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ndirlist.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/neditor.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/neditwi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfilecol.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfiledia.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfiledtr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfileinf.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfileinp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfilelis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nfilterv.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nframe.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ngroup.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nhistory.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nindicat.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/ninputli.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nlabel.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nlistbox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nlistvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nlookupv.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nmemo.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nmenubar.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nmenubox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nmenuvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nmonosel.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nparamte.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/npxvalid.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nradiobu.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nrangeva.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nresourc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nscrollb.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nscrolle.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nsortedc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nsortedl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nstatict.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nstatusl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nstringc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nstringl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nvalidat.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nview.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../names/nwindow.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../newstr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sbackgro.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sbutton.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scalcdis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scalcula.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/schdirdi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scheckbo.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sclrdisp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scluster.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scolordi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scolorgr.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scolorit.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/scolorse.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sdesktop.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sdialog.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sdircoll.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sdirlist.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/seditor.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/seditwin.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfilecol.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfiledia.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfileedi.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfileinf.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfileinp.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfilelis.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sfilterv.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sframe.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sgroup.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/shistory.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sindicat.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sinputli.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/slabel.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/slistbox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/slistvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/slookupv.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/smemo.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/smenubar.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/smenubox.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/smenuvie.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/smonosel.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sparamte.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/spxvalid.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sradiobu.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/srangeva.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sresourc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sscrollb.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sscrolle.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sstatict.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sstatusl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sstringc.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sstringl.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/sview.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="../stream/swindow.cc">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

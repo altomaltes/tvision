@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1383690116 source:d:\tvision-code\tvision\cblocks\test\main.cpp
+	<tchar.h>
+	<windows.h>
+

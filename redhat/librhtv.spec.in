@@ -1,0 +1,172 @@
+
+
+%define debug_package %{nil}
+
+%define name librhtv
+%define version @version@
+%define release 1%{?dist}
+%define namefull %{name}.so.%{version}
+%define incname rhtvision
+
+Summary:   An intuitive TUI interface for console applications. 
+Name:      %{name}
+Version:   %{version}
+Release:   %{release}
+License:   GPL
+Distribution: Fedora Linux
+Packager:  Alexander Frolov <froller@froller.net>
+Vendor:    Salvador Eduardo Tropea <set@users.sf.net>
+URL:       http://tvision.sf.net/
+Group:     System Environment/Libraries
+Source:    tvision-2.2.2.tar.gz
+#Patch0:    tvision_fixed.diff
+#Patch1:    f28.patch
+BuildRoot: %{_tmppath}/%{name}-%{version}
+BuildRequires: gcc
+BuildRequires: make
+BuildRequires: perl
+BuildRequires: gpm-devel
+Requires: gpm-libs
+
+%description 
+This is the shared library for programs using the RHTVision library.
+
+The RHTVision library gives an intuitive and user friendly TUI (Textual User
+Interface) for programs using this library and running in a console.
+
+This library is based on the Turbo Vision library made by Borland Corporation.
+That library was released by Borland under a Public Domain license. RHTVision
+is Borland's Turbo Vision library but with enhancements, some changes and a
+GPL license.
+
+If you would like to develop applications using the RHTVision library, you'll
+also need to install librhtv-devel.
+
+%package devel
+Summary:   RHTVision library development.
+Group:     Development/Libraries
+Requires:  %{name} = %{version}
+
+%description devel
+Libraries and include files you can use for developing applications using
+the RHTVision library.
+
+The RHTVision library gives an intuitive and user friendly TUI (Textual User
+Interface) for programs using this library and running in a console.
+
+This library is based on the Turbo Vision library made by Borland Corporation.
+That library was released by Borland under a Public Domain license. RHTVision
+is Borland's Turbo Vision library but with enhancements, some changes and a
+GPL license.
+
+You should install the librhtv-devel package only if you would like to develop
+applications using the RHTVision library or you would like to compile programs
+that use the RHTVision library.
+
+%prep
+%setup -n tvision
+#%patch0 -p1
+#%patch1 -p1
+
+%build
+./configure
+make
+
+%install
+
+install -d -m 0755 $RPM_BUILD_ROOT%{_includedir}/rhtvision
+rm -f $RPM_BUILD_ROOT%{_includedir}/rhtvision/*.h
+install -m 0644 include/*.h $RPM_BUILD_ROOT%{_includedir}/rhtvision
+install -d -m 0755 $RPM_BUILD_ROOT%{_includedir}/rhtvision/tv
+install -m 0644 include/tv/*.h $RPM_BUILD_ROOT%{_includedir}/rhtvision/tv
+install -d -m 0755 $RPM_BUILD_ROOT%{_includedir}/rhtvision/tv/linux
+install -m 0644 include/tv/linux/*.h $RPM_BUILD_ROOT%{_includedir}/rhtvision/tv/linux
+install -d -m 0755 $RPM_BUILD_ROOT%{_includedir}/rhtvision/tv/x11
+install -m 0644 include/tv/x11/*.h $RPM_BUILD_ROOT%{_includedir}/rhtvision/tv/x11
+install -d -m 0755 $RPM_BUILD_ROOT%{_includedir}/rhtvision/cl
+install -m 0644 include/cl/*.h $RPM_BUILD_ROOT%{_includedir}/rhtvision/cl
+
+install -d -m 0755 $RPM_BUILD_ROOT%{_libdir}
+install -m 0644 makes/librhtv.a $RPM_BUILD_ROOT%{_libdir}
+install -m 0755 makes/librhtv.so.%{version} $RPM_BUILD_ROOT%{_libdir}
+install -m 0644 makes/libtvfintl.a $RPM_BUILD_ROOT%{_libdir}/libtvfintl.a
+mkdir -p $RPM_BUILD_ROOT%{_datadir}/doc/packages/tvision
+install -m 0644 doc/*.txt doc/*.html  $RPM_BUILD_ROOT%{_datadir}/doc/packages/tvision
+
+cd $RPM_BUILD_ROOT%{_libdir}
+ln -s librhtv.so.%{version} librhtv.so
+ln -s librhtv.so.%{version} librhtv.so.2
+
+strip --strip-debug $RPM_BUILD_ROOT%{_libdir}/librhtv.so.%{version}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
+%files
+%defattr(-,root,root)
+%{_libdir}/lib*.so.*
+
+%files devel
+%defattr(-,root,root)
+%dir %{_includedir}/%{incname}
+%dir %{_includedir}/%{incname}/tv
+%{_includedir}/%{incname}/*.h
+%{_includedir}/%{incname}/tv/*.h
+%{_includedir}/%{incname}/tv/linux/*.h
+%{_includedir}/%{incname}/tv/x11/*.h
+%{_includedir}/%{incname}/cl/*.h
+%{_libdir}/*.a
+%{_libdir}/lib*.so
+%{_datadir}/doc/packages/tvision/*
+
+%changelog -n librhtv
+* Sat Dec 18 2010 - mcatudal@comcast.net
+- A few fixes for Fedora 14
+* Sun Dec 12 2010 - mcatudal@comcast.net
+- First Fedora 14 release
+* Sun Dec 12 2010 - mcatudal@comcast.net
+- First Mandriva 2010.1 release
+* Sat Feb 20 2010 - mcatudal@comcast.net
+- Updated spec file to be more generic
+* Sat Feb 20 2010 - mcatudal@comcast.net
+- Updated to version 2.2.0 revision 2.738
+* Sat Feb 13 2010 - mcatudal@comcast.net
+- First Fedora 12 release
+* Sat Sep 26 2009 - mcatudal@comcast.net
+- First Fedora 11 release
+* Sat Jul 1 2009 - mcatudal@comcast.net
+- First Mandriva 2009.1 release
+* Sun Dec 28 2008 - mcatudal@comcast.net
+- First Fedora 9 release
+* Fri May 2 2008 - mcatudal@comcast.net
+- First Mandriva 2008.1 release
+* Sun Oct 30 2005 - mcatudal@comcast.net
+- First SuSE 10.0 release
+* Sun Apr 17 2005 - mcatudal@comcast.net
+- Adapted for 64 bits AMD processor on Fedora Core 4
+* Sun Mar 20 2005 - mcatudal@comcast.net
+- Adapted for 64 bits AMD processor on Fedora Core 3
+* Wed Nov 24 2004 - Michel Catudal mcatudal@comcast.net
+- Update to last CVS, added support for debug
+* Sun Nov 14 2004 - Michel Catudal mcatudal@comcast.net
+- Update to latest CVS code, use same directory name as CVS
+  added revision number to match the revision stated
+  in the change.log file
+* Tue Feb 18 2003 - Michel Catudal bbcat@netonecom.net
+- Add documentation
+* Sun Jan 5 2003 - Michel Catudal bbcat@netonecom.net
+- Released 2.0.1 version
+* Sat Oct 6 2002 - Michel Catudal bbcat@netonecom.net
+- Version 2 from CVS
+* Mon Nov 5 2001 - Michel Catudal bbcat@netonecom.net
+- Added copying of include files on include/cl which were missing
+* Sun Nov 4 2001 - "Ernas M. Jamil" <ernasm@samba.co.id>
+- Added copying of include files which were not done due
+  to changes that I was not aware of in the include files.
+  The same install script worked before.
+  Thanks to Ernas M. Jamil for pointing it out.
+
