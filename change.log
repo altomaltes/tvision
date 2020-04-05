@@ -5,6 +5,7 @@ an implementation of abs() using unsigned values. Could be needed by gcc 7.x.
 * Added: [Make]  libtvfintl.a to the clean target
 * Added: [config] the static lib to makes/.gitignore
 * Modified: [config] Renamed all .cvsignore to .gitignore
+* git xml
 
 Revision 2.768  2017/07/31 13:08:43  set
 * Fixed: [AlCon] Wrong offset in AlCon_GetScrChars and AlCon_PutChar.
